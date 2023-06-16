@@ -36,9 +36,9 @@ export const MainPage = () => {
         {/* about page... */}
 
         <div className='about'>
-            <div className='titleContainer'>
-                <h1 className='title' id='aboutTitle'>ABOUT ME</h1>
-                <h2 className='subTitle'>Know Me More</h2>
+            <div className='headerContainer'>
+                <h1 className='header' id='aboutTitle'>ABOUT ME</h1>
+                <h2 className='subHeader'>Know Me More</h2>
                 <div className='underline'></div>
             </div>
 
@@ -47,30 +47,31 @@ export const MainPage = () => {
                     <h3 id='greetingPart1'>I'm</h3> <h3 id='greetingPart2'>Ridmi Silva</h3> <h3 id='greetingPart3'>,</h3>
                 </div>
                 <div id='distription'>
-                    <div id='paragraph'></div>
+                    <div id='paragraph'>
+                        <p id='p'>In present I studying as a student at IJSE (Institute of Software Engineering) in Sri Lanka. I'm following a degree program in Computer Science. The subjects I am currently focusing on are software development, web development and UIUX designing.<br/><br/>I love to explore about new technologies. Therefore self-study is my personal favorite. Also I like to improve my skills by working on different types of projects.</p>
+                    </div>
                     <div id='personalDetails'>
-                        <div>
-                            <div></div>
-                            <div></div>
+                        <div className='personalDetailsGrid' id='personalDetailsGrid1'>
+                            <div className='title'><h3 id='nameTitle'>Full Name</h3></div>
+                            <div className='details'><h3 id='name'>Sinhara Ridmi Rangana Silva</h3></div>
+                        </div>
+                        <div className='personalDetailsGrid' id='personalDetailsGrid2'>
+                            <div className='title'><h3 id='birthdayTitle'>Full Name</h3></div>
+                            <div className='details'><h3 id='birthday'>Sinhara Ridmi Rangana Silva</h3></div>
+                        </div>
+                        <div className='personalDetailsGrid' id='personalDetailsGrid3'>
+                            <div className='title'><h3 id='emailTitle'>Full Name</h3></div>
+                            <div className='details'><h3 id='email'>Sinhara Ridmi Rangana Silva</h3></div>
+                        </div>
+                        <div className='personalDetailsGrid' id='personalDetailsGrid4'>
+                            <div className='title'><h3 id='phoneTitle'>Full Name</h3></div>
+                            <div className='details'><h3 id='phone'>Sinhara Ridmi Rangana Silva</h3></div>
+                        </div>
+                        <div className='personalDetailsGrid'>
+                            <div className='title'><h3 id='cityTitle'>Full Name</h3></div>
+                            <div className='details'><h3 id='city'>Sinhara Ridmi Rangana Silva</h3></div>
                         </div>
                         <div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div>
-                            <div></div>
                             <div></div>
                         </div>
                     </div>
@@ -89,9 +90,9 @@ export const MainPage = () => {
         {/* resume page... */}
 
         <div className='resume'>
-            <div className='titleContainer'>
-                <h1 className='title' id='resumeTitle'>SAMMARY</h1>
-                <h2 className='subTitle'>Resume</h2>
+            <div className='headerContainer'>
+                <h1 className='header' id='resumeTitle'>SAMMARY</h1>
+                <h2 className='subHeader'>Resume</h2>
                 <div className='underline'></div>
             </div>
         </div>

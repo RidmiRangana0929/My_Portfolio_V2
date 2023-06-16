@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 
@@ -119,9 +122,8 @@
     height: 100vh;
 }
 #aboutPageLayout{
-    background-color: #c17979;
     height: 74vh;
-    width: 81.9vw;
+    width: 77vw;
     position: absolute;
     margin: auto;
     left: 0;
@@ -133,26 +135,80 @@
     gap: 0;
 }
 #greeting{
-    background-color: #6f9ed8;
+    display: flex;
     height: 6vh;
 }
 #greetingPart1, #greetingPart2, #greetingPart3{
+    position: absolute;
     margin: 0;
     height: fit-content;
     width: fit-content;
-    font-family: 'Poppins';
-    font-size: 1.4em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+}
+#greetingPart2{
+    left: 2.8vw;
+    color: #FFC107;
+}
+#greetingPart3{
+    left: 11.5vw;
+}
+#greetingPart1,#greetingPart3{
+    color: #111418;
 }
 #distription{
-    display: grid;
-    grid-template-rows: repeat(1,1fr);
-    grid-template-columns: repeat(2,1fr);
-    gap: 0;
-    background-color: #d8be6f;
-    height: 50vh;
-    width: 81.9vw;
+    gap: 8vw;
+    display: flex;
+    top: 6vh;
+    position: absolute;
+    height: 45vh;
+    width: 77vw;
 }
+#paragraph{
+    height: 45vh;
+    width: 50%;
+}
+#p{
+    line-height: 2em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    text-align: left;
 
+}
+#personalDetails{
+    width: 50%;
+    height: 45vh;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(1,1fr);
+}
+.personalDetailsGrid{
+    display: flex;
+    gap: 1vw;
+}
+#personalDetailsGrid1,#personalDetailsGrid2,#personalDetailsGrid3,#personalDetailsGrid4{
+    border-bottom: 0.5px solid #DFDCDC;
+}
+.title{
+    text-align: left;
+    width: 25%;
+}
+.details{
+    text-align: left;
+    width: 75%;
+}
+#nameTitle,#birthdayTitle,#emailTitle,#phoneTitle,#cityTitle{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #111418;
+    font-size: 1em;
+}
+#name,#birthday,#email,#phone,#city{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #111418;
+    font-size: 1em;
+}
 /* resume page... */
 .resume{
     background-color: #F8F9FA;
@@ -163,7 +219,7 @@
 }
 
 /* page headers and underline... */
-.titleContainer{
+.headerContainer{
     width: 70vw;
     height: 26vh;
     margin: auto;
@@ -171,7 +227,7 @@
     left: 0;
     right: 0;;
 }
-.title{
+.header{
     position: relative;
     width: 60vw;
     height: 26vh;
@@ -185,7 +241,7 @@
 #resumeTitle{
     color: #e8ecec;
 }
-.subTitle{
+.subHeader{
     position: absolute;
     top: 0;
     bottom: 0;
