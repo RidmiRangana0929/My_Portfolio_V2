@@ -5,6 +5,8 @@ export const MainPage = () => {
   return (
     <div>
 
+        {/* navigation bar... */}
+
         <div className='navBar'>
             <div className='btnGrid'>
                 <button className='navBtn'>Home</button>
@@ -22,9 +24,17 @@ export const MainPage = () => {
                 <div className='socialMedia' id='github'></div>
             </div>
         </div>
+
+
+        {/* home page... */}
+
         <div className='homeImg'>
             <div className='home'></div>
         </div>
+
+
+        {/* about page... */}
+
         <div className='about'>
             <div className='titleContainer'>
                 <h1 className='title' id='aboutTitle'>ABOUT ME</h1>
@@ -32,12 +42,15 @@ export const MainPage = () => {
                 <div className='underline'></div>
             </div>
         </div>
+
+
+        {/* resume page... */}
+
         <div className='resume'>
             <div className='titleContainer'>
                 <h1 className='title' id='resumeTitle'>SAMMARY</h1>
                 <h2 className='subTitle'>Resume</h2>
             </div>
-
         </div>
 
     </div>

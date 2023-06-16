@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+
+/* navigation bar... */
 .navBar{
     background-color: #111418;
     border-right: 1px solid rgba(0,0,0,.07);
@@ -83,6 +85,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* home page... */
 .homeImg{
     background-image: url("./Images/Untitled\ design\ \(13\).png");
     position: absolute;
@@ -104,6 +108,8 @@
     width: 81.9vw;
     height: 100vh;
 }
+
+/* about page... */
 .about{
     background-color: #ffffff;
     position: relative;
@@ -112,6 +118,8 @@
     left: 17vw;
     height: 100vh;
 }
+
+/* resume page... */
 .resume{
     background-color: #F8F9FA;
     position: relative;
@@ -120,6 +128,8 @@
     left: 17vw;
     height: 150vh;
 }
+
+/* page headers... */
 .titleContainer{
     width: 70vw;
     height: 26vh;
