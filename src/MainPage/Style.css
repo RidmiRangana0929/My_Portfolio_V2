@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .navBar{
     background-color: #111418;
@@ -58,27 +59,27 @@
     width: 20px;
 }
 #facebook{
-    background-image: url("./Images//icons//facebook\ \(1\).png");
+    background-image: url("./Images/icons/socialMedia/facebook\ \(1\).png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #instagrame{
-    background-image: url("./Images/icons/instagram\ \(2\).png");
+    background-image: url("./Images/icons/socialMedia/instagram\ \(2\).png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #whatsapp{
-    background-image: url("./Images/icons/whatsapp\ \(2\).png");
+    background-image: url("./Images/icons/socialMedia/whatsapp\ \(2\).png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #slack{
-    background-image: url("./Images/icons/slack\ \(2\).png");
+    background-image: url("./Images/icons/socialMedia/slack\ \(2\).png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 #github{
-    background-image: url("./Images/icons/github\ \(1\).png");
+    background-image: url("./Images/icons/socialMedia/github\ \(1\).png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -93,8 +94,6 @@
     background-position: 158%;
     background-repeat: no-repeat;
     background-size: contain;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover; */
     transition: background-image .3s ease-in .2s;
     z-index: 0;
 }
@@ -117,16 +116,42 @@
     background-color: #F8F9FA;
     position: relative;
     width: 81.9vw;
+    top: -27vh;
     left: 17vw;
     height: 150vh;
 }
+.titleContainer{
+    width: 70vw;
+    height: 26vh;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;;
+}
 .title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10em;
+    position: relative;
+    width: 60vw;
+    height: 26vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8em;
 }
 #aboutTitle{
-    color: #F2F2F2;
+    color: #F2F4F4;
 }
 #resumeTitle{
-    color: #E9E9E9;
+    color: #e8ecec;
+}
+.subTitle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40vw;
+    height: 7vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #111418;
 }

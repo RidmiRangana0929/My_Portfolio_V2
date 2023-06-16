@@ -26,10 +26,18 @@ export const MainPage = () => {
             <div className='home'></div>
         </div>
         <div className='about'>
-            <h1 className='title' id='aboutTitle'>ABOUT ME</h1>
+            <div className='titleContainer'>
+                <h1 className='title' id='aboutTitle'>ABOUT ME</h1>
+                <h2 className='subTitle'>Know Me More</h2>
+                <div className='underline'></div>
+            </div>
         </div>
         <div className='resume'>
-            <h1 className='title' id='resumeTitle'>SAMMARY</h1>
+            <div className='titleContainer'>
+                <h1 className='title' id='resumeTitle'>SAMMARY</h1>
+                <h2 className='subTitle'>Resume</h2>
+            </div>
+
         </div>
 
     </div>
