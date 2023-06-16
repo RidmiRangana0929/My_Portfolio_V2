@@ -56,20 +56,20 @@ export const MainPage = () => {
                             <div className='details'><h3 id='name'>Sinhara Ridmi Rangana Silva</h3></div>
                         </div>
                         <div className='personalDetailsGrid' id='personalDetailsGrid2'>
-                            <div className='title'><h3 id='birthdayTitle'>Full Name</h3></div>
-                            <div className='details'><h3 id='birthday'>Sinhara Ridmi Rangana Silva</h3></div>
+                            <div className='title'><h3 id='birthdayTitle'>Birthday</h3></div>
+                            <div className='details'><h3 id='birthday'>29/09/2000</h3></div>
                         </div>
                         <div className='personalDetailsGrid' id='personalDetailsGrid3'>
-                            <div className='title'><h3 id='emailTitle'>Full Name</h3></div>
-                            <div className='details'><h3 id='email'>Sinhara Ridmi Rangana Silva</h3></div>
+                            <div className='title'><h3 id='emailTitle'>Email</h3></div>
+                            <div className='details'><h3 id='email'>ridmirangana1429@gmail.com</h3></div>
                         </div>
                         <div className='personalDetailsGrid' id='personalDetailsGrid4'>
-                            <div className='title'><h3 id='phoneTitle'>Full Name</h3></div>
-                            <div className='details'><h3 id='phone'>Sinhara Ridmi Rangana Silva</h3></div>
+                            <div className='title'><h3 id='phoneTitle'>Phone</h3></div>
+                            <div className='details'><h3 id='phone'>+94 (70) 327 4953</h3></div>
                         </div>
                         <div className='personalDetailsGrid'>
-                            <div className='title'><h3 id='cityTitle'>Full Name</h3></div>
-                            <div className='details'><h3 id='city'>Sinhara Ridmi Rangana Silva</h3></div>
+                            <div className='title'><h3 id='cityTitle'>City</h3></div>
+                            <div className='details'><h3 id='city'>Kalutara, Sri Lanka</h3></div>
                         </div>
                         <div>
                             <div></div>

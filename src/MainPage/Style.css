@@ -123,7 +123,7 @@
 }
 #aboutPageLayout{
     height: 74vh;
-    width: 77vw;
+    width: 72vw;
     position: absolute;
     margin: auto;
     left: 0;
@@ -157,16 +157,16 @@
     color: #111418;
 }
 #distription{
-    gap: 8vw;
+    gap: 11vw;
     display: flex;
     top: 6vh;
     position: absolute;
     height: 45vh;
-    width: 77vw;
+    width: 72vw;
 }
 #paragraph{
     height: 45vh;
-    width: 50%;
+    width: 65%;
 }
 #p{
     line-height: 2em;
@@ -184,7 +184,7 @@
 }
 .personalDetailsGrid{
     display: flex;
-    gap: 1vw;
+    gap: 8vw;
 }
 #personalDetailsGrid1,#personalDetailsGrid2,#personalDetailsGrid3,#personalDetailsGrid4{
     border-bottom: 0.5px solid #DFDCDC;
@@ -201,13 +201,13 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #111418;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 #name,#birthday,#email,#phone,#city{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #111418;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 /* resume page... */
 .resume{
