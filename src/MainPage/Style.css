@@ -209,6 +209,9 @@
     color: #111418;
     font-size: 0.9em;
 }
+#downloadCv{
+    width: 10vw;
+}
 /* resume page... */
 .resume{
     background-color: #F8F9FA;
@@ -264,4 +267,16 @@
     top: 16vh;
     background-color: #FFC107;
     border-radius: 20px;
+}
+
+/* buttons... */
+.button{
+    color: #ffffff;
+    background-color: #FFC107;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-color: #ffffff00;
+    height: 4vh;
 }

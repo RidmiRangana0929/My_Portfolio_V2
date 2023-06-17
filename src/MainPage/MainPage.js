@@ -72,7 +72,9 @@ export const MainPage = () => {
                             <div className='details'><h3 id='city'>Kalutara, Sri Lanka</h3></div>
                         </div>
                         <div>
-                            <div></div>
+                            <div>
+                                <button className='button' id='downloadCv'>Download CV</button>
+                            </div>
                         </div>
                     </div>
                 </div>
