@@ -1,5 +1,8 @@
 import React from 'react'
+
 import './Style.css'
+
+
 
 export const MainPage = () => {
   return (
@@ -48,7 +51,13 @@ export const MainPage = () => {
                 </div>
                 <div id='distription'>
                     <div id='paragraph'>
-                        <p id='p'>In present I studying as a student at IJSE (Institute of Software Engineering) in Sri Lanka. I'm following a degree program in Computer Science. The subjects I am currently focusing on are software development, web development and UIUX designing.<br/><br/>I love to explore about new technologies. Therefore self-study is my personal favorite. Also I like to improve my skills by working on different types of projects.</p>
+                        <p id='p'>In present I studying as a student at IJSE (Institute of Software Engineering) in Sri Lanka.
+                         I'm following a degree program in Computer Science.
+                          The subjects I am currently focusing on are software development, web development and UIUX designing.
+                          <br/><br/>
+                          I love to explore about new technologies.
+                           Therefore self-study is my personal favorite.
+                            Also I like to improve my skills by working on different types of projects.</p>
                     </div>
                     <div id='personalDetails'>
                         <div className='personalDetailsGrid' id='personalDetailsGrid1'>
@@ -78,12 +87,19 @@ export const MainPage = () => {
                         </div>
                     </div>
                 </div>
-                <div id='caculation'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div id='calculation'>
+                    <div id='experience'>
+                        <h1 className='count'>2+</h1>
+                        <h4 className='info'>Years Experience</h4>
+                    </div>
+                    <div id='projects'>
+                        <h1 className='count'>8+</h1>
+                        <h4 className='info'>Projects Done</h4>
+                    </div>
+                    <div id='clients'>
+                        <h1 className='count'>0+</h1>
+                        <h4 className='info'>Happy Clients</h4>
+                    </div>
                 </div>
             </div>
         </div>
