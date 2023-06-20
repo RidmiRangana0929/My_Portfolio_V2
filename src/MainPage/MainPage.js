@@ -1,5 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+import DetailBox from '../compornent/DetailBox/DetailBox'
+import Content from '../compornent/DetailBox/Content'
 import './Style.css'
 
 
@@ -134,6 +136,7 @@ export const MainPage = () => {
                 <h2 className='subHeader'>Resume</h2>
                 <div className='underline'></div>
             </div>
+            
         </div>
 
     </div>
