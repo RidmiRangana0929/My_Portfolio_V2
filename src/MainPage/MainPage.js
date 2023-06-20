@@ -137,6 +137,15 @@ export const MainPage = () => {
                 <div className='underline'></div>
             </div>
             
+            <div className='boxContainer' id='boxContainer1'>
+                <div className='box'></div>
+                <div className='box'></div>
+            </div>
+            <div className='boxContainer' id='boxContainer2'>
+                <div className='box'></div>
+                <div className='box'></div>
+            </div>
+
         </div>
 
     </div>

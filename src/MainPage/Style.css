@@ -317,6 +317,31 @@
     left: 17vw;
     height: 150vh;
 }
+.boxContainer{
+    display: grid;
+    gap: 10vh;
+}
+.box{
+    width: 25vw;
+    height: 22vh;
+    border: 2px solid #c3c3c3;
+    border-radius: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* page headers and underline... */
 .headerContainer{
