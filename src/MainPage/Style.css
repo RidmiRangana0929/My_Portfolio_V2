@@ -315,11 +315,31 @@
     position: relative;
     width: 81.9vw;
     left: 17vw;
-    height: 150vh;
+    height: 200vh;
+}
+#mainLine{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    top: 40vh;
+    height: 121vh;
+    width: 0.5vw;
+    background-color: #b5bac0;
 }
 .boxContainer{
+    position: absolute;
     display: grid;
-    gap: 10vh;
+    gap: 45vh;
+}
+#boxContainer1{
+    left: 12vw;
+    top: 40vh;
+}
+#boxContainer2{
+    right: 12vw;
+    top: 74vh;
 }
 .box{
     width: 25vw;

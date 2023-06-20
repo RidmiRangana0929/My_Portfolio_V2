@@ -136,6 +136,8 @@ export const MainPage = () => {
                 <h2 className='subHeader'>Resume</h2>
                 <div className='underline'></div>
             </div>
+
+            <div id='mainLine'></div>
             
             <div className='boxContainer' id='boxContainer1'>
                 <div className='box'></div>
