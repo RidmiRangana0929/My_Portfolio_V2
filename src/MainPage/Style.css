@@ -352,12 +352,6 @@
     display: grid;
     gap: 32.5vh;
 }
-.circle{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #FFC107;
-}
 #circleContainer1{
     left: 40.62vw;
     top: 51vh;
@@ -365,6 +359,31 @@
 #circleContainer2{
     right: 40.62vw;
     top: 117.5vh;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFC107;
+}
+.timeContainer{
+    position: absolute;
+    display: grid;
+    gap: 61vh;
+}
+#timeContainer1{
+    left: 29vw;
+    top: 83vh;
+}
+#timeContainer2{
+    right: 29vw;
+    top: 49vh;
+}
+.time{
+    width: 10vw;
+    height: 5vh;
+    background-color: #FFC107;
+    border-radius: 10px;
 }
 
 
