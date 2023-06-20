@@ -138,6 +138,15 @@ export const MainPage = () => {
             </div>
 
             <div id='mainLine'></div>
+
+            <div className='circleContainer' id='circleContainer1'>
+                <div className='circle'></div>
+                <div className='circle'></div>
+            </div>
+            <div className='circleContainer' id='circleContainer2'>
+                <div className='circle'></div>
+                <div className='circle'></div>
+            </div>
             
             <div className='boxContainer' id='boxContainer1'>
                 <div className='box'></div>
