@@ -350,14 +350,14 @@
 .circleContainer{
     position: absolute;
     display: grid;
-    gap: 32.5vh;
+    gap: 30.5vh;
 }
 #circleContainer1{
-    left: 40.62vw;
-    top: 51vh;
+    left: 40.3vw;
+    top: 50vh;
 }
 #circleContainer2{
-    right: 40.62vw;
+    right: 40.3vw;
     top: 117.5vh;
 }
 .circle{
@@ -369,11 +369,11 @@
 .timeContainer{
     position: absolute;
     display: grid;
-    gap: 61vh;
+    gap: 62vh;
 }
 #timeContainer1{
     left: 29vw;
-    top: 83vh;
+    top: 82vh;
 }
 #timeContainer2{
     right: 29vw;
