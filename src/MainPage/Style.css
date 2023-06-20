@@ -369,11 +369,11 @@
 .timeContainer{
     position: absolute;
     display: grid;
-    gap: 62vh;
+    gap: 62.5vh;
 }
 #timeContainer1{
     left: 29vw;
-    top: 82vh;
+    top: 82.1vh;
 }
 #timeContainer2{
     right: 29vw;
