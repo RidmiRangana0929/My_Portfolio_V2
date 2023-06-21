@@ -158,14 +158,12 @@ export const MainPage = () => {
                 <div id='mainLine'></div>
 
                 <div className='timeContainer' id='timeContainer1'>
-                    <div className='time'></div>
-                    <div className='time'></div>
+                    <div className='time'><h3 className='timePeriod'>2021 - 2022</h3></div>
+                    <div className='time'><h3 className='timePeriod'>2011 - 2016</h3></div>
                 </div>
                 <div className='timeContainer' id='timeContainer2'>
-                    <div className='time'>
-                        {/* <h3 className='timePeriod'>2021 -2023</h3> */}
-                        </div>
-                    <div className='time'></div>
+                    <div className='time'><h3 className='timePeriod'>2021 - 2023</h3></div>
+                    <div className='time'><h3 className='timePeriod'>2016 - 2020</h3></div>
                 </div>
 
                 <div className='circleContainer' id='circleContainer1'>
