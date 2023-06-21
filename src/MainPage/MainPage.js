@@ -177,13 +177,36 @@ export const MainPage = () => {
                 
                 <div className='boxContainer' id='boxContainer1'>
                     <div className='box'>
-                        <DetailBox/>
+                        <DetailBox id={"ijse"} 
+                        qualification={"Bsc (Hons) in Computer Science"}
+                        institute={"Institute of Software Engineering"}
+                        location={"Panadura"}
+                        />
                     </div>
-                    <div className='box'></div>
+                    <div className='box'>
+                    <DetailBox id={"princess"} 
+                        qualification={"Advance Level"}
+                        institute={"Princess of Wales' College"}
+                        location={"Moratuwa"}
+                        />
+                    
+                    </div>
                 </div>
                 <div className='boxContainer' id='boxContainer2'>
-                    <div className='box'></div>
-                    <div className='box'></div>
+                    <div className='box'>
+                    <DetailBox id={"esoft"} 
+                        qualification={"Diploma in Information Technology"}
+                        institute={"ESOFT Metro Campus"}
+                        location={"Galle"}
+                        />
+                    </div>
+                    <div className='box'>
+                    <DetailBox id={"siridhamma"} 
+                        qualification={"Ordinary Level"}
+                        institute={"Siridhamma College"}
+                        location={"Galle"}
+                        />
+                    </div>
                 </div>
 
             </div>

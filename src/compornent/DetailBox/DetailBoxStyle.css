@@ -6,12 +6,12 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    background-color: rgb(255, 255, 255);
 }
 .qualification{
     position: relative;
-    top: 1.5vh;
+    top: 2vh;
     margin-top: 0;
+    margin-bottom: 5.5vh;
     color: #111418;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -25,11 +25,44 @@
     right: 0;
 }
 #ijse{
-    background-image: url("../DetailBox/Images2/skills/education/ijse.png");
+    background-image: url("../DetailBox/education/ijse.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 10vw;
 }
+#esoft{
+    background-image: url("../DetailBox/education/Esoft.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6.5vw;
+}
+#princess{
+    background-image: url("../DetailBox/education/princess.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3.05vw;
+}
+#siridhamma{
+    background-image: url("../DetailBox/education/siridhamma.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3.05vw;
+}
 .institute{
-    
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5F6F85;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+.location{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+    color: #5F6F85;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
 }
