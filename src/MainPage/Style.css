@@ -516,7 +516,47 @@
 .skillLogo{
     width: 6vh;
     height: 6vh;
-    background-color: #111418;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#skillLogo1{
+    background-image: url("./Images/icons/skills/other/java.png");
+}
+#skillLogo2{
+    background-image: url("./Images/icons/skills/other/html5.png");
+}
+#skillLogo3{
+    background-image: url("./Images/icons/skills/other/mysql.png");
+}
+#skillLogo4{
+    background-image: url("./Images/icons/skills/other/css3.png");
+}
+#skillLogo5{
+    background-image: url("./Images/icons/skills/other/msSqlServer.png");
+}
+#skillLogo6{
+    background-image: url("./Images/icons/skills/other/javascript\ \(1\).png");
+}
+#skillLogo7{
+    background-image: url("./Images/icons/skills/other/cSharp.png");
+}
+#skillLogo8{
+    background-image: url("./Images/icons/skills/other/python.png");
+}
+#skillLogo9{
+    background-image: url("./Images/icons/skills/other/react.png");
+}
+#skillLogo10{
+    background-image: url("./Images/icons/skills/other/hibernate.png");
+}
+#skillLogo11{
+    background-image: url("./Images/icons/skills/other/bootstrap.png");
+}
+#skillLogo12{
+    background-image: url("./Images/icons/skills/other/reactBootstrap.png");
+}
+#skillLogo13{
+    background-image: url("./Images/icons/skills/other/metirialUI.png");
 }
 /* ============================================================================================================================================ */
 
