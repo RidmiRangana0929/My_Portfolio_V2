@@ -189,7 +189,6 @@ export const MainPage = () => {
                         institute={"Princess of Wales' College"}
                         location={"Moratuwa"}
                         />
-                    
                     </div>
                 </div>
                 <div className='boxContainer' id='boxContainer2'>
@@ -208,6 +207,13 @@ export const MainPage = () => {
                         />
                     </div>
                 </div>
+
+                    <div className='skillContainer' id='skillContainer1'></div>
+                    <div className='skillContainer' id='skillContainer2'></div>
+                    <div className='skillContainer' id='skillContainer3'></div>
+                    <div className='skillContainer' id='skillContainer4'></div>
+
+                {/* <div className='mainSkillContainer'></div> */}
 
             </div>
 
