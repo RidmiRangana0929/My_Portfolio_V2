@@ -210,12 +210,38 @@ export const MainPage = () => {
 
                     <div className='skillContainer' id='skillContainer1'>
                         <h3 className='skillType'>Languages and Databases</h3>
+                        <div className='logoContainer' id='logoContainer1'>
+                            <div className='skillLogo' id='skillLogo1'></div>
+                            <div className='skillLogo' id='skillLogo2'></div>
+                            <div className='skillLogo' id='skillLogo3'></div>
+                            <div className='skillLogo' id='skillLogo4'></div>
+                            <div className='skillLogo' id='skillLogo5'></div>
+                            <div className='skillLogo' id='skillLogo6'></div>
+                            <div className='skillLogo' id='skillLogo7'></div>
+                            <div className='skillLogo' id='skillLogo8'></div>
+                        </div>
                     </div>
                     <div className='skillContainer' id='skillContainer2'>
                         <h3 className='skillType'>Frameworks and Libraries</h3>
+                        <div className='logoContainer' id='logoContainer2'>
+                        <div className='skillLogo'></div>
+                            <div className='skillLogo' id='skillLogo9'></div>
+                            <div className='skillLogo' id='skillLogo10'></div>
+                            <div className='skillLogo' id='skillLogo11'></div>
+                            <div className='skillLogo' id='skillLogo12'></div>
+                        </div>
                     </div>
                     <div className='skillContainer' id='skillContainer3'>
                         <h3 className='skillType'>Tools</h3>
+                        <div className='logoContainer' id='logoContainer3'>
+                        <div className='skillLogo'></div>
+                            <div className='skillLogo' id='skillLogo13'></div>
+                            <div className='skillLogo' id='skillLogo14'></div>
+                            <div className='skillLogo' id='skillLogo15'></div>
+                            <div className='skillLogo' id='skillLogo16'></div>
+                            <div className='skillLogo' id='skillLogo17'></div>
+                            <div className='skillLogo' id='skillLogo18'></div>
+                        </div>
                     </div>
                     <div className='skillContainer' id='skillContainer4'>
                         <h3 className='skillType'>Architectures</h3>

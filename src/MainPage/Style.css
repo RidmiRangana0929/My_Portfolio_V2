@@ -387,7 +387,7 @@
     position: relative;
     width: 81.9vw;
     left: 17vw;
-    height: 275vh;
+    height: 300vh;
 }
 #mainLine{
     position: absolute;
@@ -470,7 +470,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    height: 20vh;
+    height: 25vh;
     width: 70vw;
 }
 #skillContainer1,#skillContainer2,#skillContainer3{
@@ -480,21 +480,44 @@
     top: 180vh;
 }
 #skillContainer2{
-    top: 200vh;
+    top: 205vh;
 }
 #skillContainer3{
-    top: 220vh;
+    top: 230vh;
 }
 #skillContainer4{
-    top: 240vh;
+    top: 255vh;
 }
 .skillType{
     font-family: 'Inter', sans-serif;
+    margin: 5vh;
     color: #111418;
     font-weight: 500;
     font-size: 1.3em;
 }
-
+.logoContainer{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    gap: 10vh;
+    display: flex;
+    align-items: center;
+}
+#logoContainer1{
+    width: 118vh;
+}
+#logoContainer2{
+    width: 70vh;
+}
+#logoContainer3{
+    width: 102vh;
+}
+.skillLogo{
+    width: 6vh;
+    height: 6vh;
+    background-color: #111418;
+}
 /* ============================================================================================================================================ */
 
 
