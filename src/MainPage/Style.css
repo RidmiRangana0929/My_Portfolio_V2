@@ -350,7 +350,7 @@
 .circleContainer{
     position: absolute;
     display: grid;
-    gap: 30.5vh;
+    gap: 64.5vh;
 }
 #circleContainer1{
     left: 40.3vw;
@@ -358,7 +358,7 @@
 }
 #circleContainer2{
     right: 40.3vw;
-    top: 117.5vh;
+    top: 84vh;
 }
 .circle{
     width: 20px;
@@ -369,21 +369,28 @@
 .timeContainer{
     position: absolute;
     display: grid;
-    gap: 62.5vh;
+    gap: 63.5vh;
 }
 #timeContainer1{
-    left: 29vw;
-    top: 82.1vh;
+    left: 31vw;
+    top: 83vh;
 }
 #timeContainer2{
-    right: 29vw;
+    right: 31vw;
     top: 49vh;
 }
 .time{
-    width: 10vw;
-    height: 5vh;
+    width: 8vw;
+    height: 4vh;
     background-color: #FFC107;
     border-radius: 10px;
+    text-align: center;
+}
+.timePeriod{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
 }
 
 

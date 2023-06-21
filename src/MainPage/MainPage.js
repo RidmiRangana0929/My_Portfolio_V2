@@ -162,7 +162,9 @@ export const MainPage = () => {
                     <div className='time'></div>
                 </div>
                 <div className='timeContainer' id='timeContainer2'>
-                    <div className='time'></div>
+                    <div className='time'>
+                        {/* <h3 className='timePeriod'>2021 -2023</h3> */}
+                        </div>
                     <div className='time'></div>
                 </div>
 
