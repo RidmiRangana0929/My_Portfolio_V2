@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.dBox{
+    width: 25vw;
+    height: 22vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.qualification{
+    position: relative;
+    top: 1.5vh;
+    margin-top: 0;
+    color: #111418;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.logo{
+    height: 3vw;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+#ijse{
+    background-image: url("../DetailBox/Images2/skills/education/ijse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+}
+.institute{
+    
+}

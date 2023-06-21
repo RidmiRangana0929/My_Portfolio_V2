@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Typewriter from 'typewriter-effect';
 import DetailBox from '../compornent/DetailBox/DetailBox'
-import Content from '../compornent/DetailBox/Content'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import './Style.css'
@@ -134,7 +133,7 @@ export const MainPage = () => {
                             <h4 className='info'>Projects Done</h4>
                         </div>
                         <div id='clients'>
-                        <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
+                            <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
                             <h1 className='count'>
                                 {counterOn && <CountUp start={0} end={0} duration={2} delay={0}/>}
                                 +
@@ -177,7 +176,9 @@ export const MainPage = () => {
                 </div>
                 
                 <div className='boxContainer' id='boxContainer1'>
-                    <div className='box'></div>
+                    <div className='box'>
+                        <DetailBox/>
+                    </div>
                     <div className='box'></div>
                 </div>
                 <div className='boxContainer' id='boxContainer2'>
