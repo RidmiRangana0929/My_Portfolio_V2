@@ -94,23 +94,23 @@ export const MainPage = () => {
                                 Also I like to improve my skills by working on different types of projects.</p>
                         </div>
                         <div id='personalDetails'>
-                            <div className='personalDetailsGrid' id='personalDetailsGrid1'>
+                            <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid' id='personalDetailsGrid1'>
                                 <div className='title'><h3 id='nameTitle'>Full Name</h3></div>
                                 <div className='details'><h3 id='name'>Sinhara Ridmi Rangana Silva</h3></div>
                             </div>
-                            <div className='personalDetailsGrid' id='personalDetailsGrid2'>
+                            <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid' id='personalDetailsGrid2'>
                                 <div className='title'><h3 id='birthdayTitle'>Birthday</h3></div>
                                 <div className='details'><h3 id='birthday'>29/09/2000</h3></div>
                             </div>
-                            <div className='personalDetailsGrid' id='personalDetailsGrid3'>
+                            <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid' id='personalDetailsGrid3'>
                                 <div className='title'><h3 id='emailTitle'>Email</h3></div>
                                 <div className='details'><h3 id='email'>ridmirangana1429@gmail.com</h3></div>
                             </div>
-                            <div className='personalDetailsGrid' id='personalDetailsGrid4'>
+                            <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid' id='personalDetailsGrid4'>
                                 <div className='title'><h3 id='phoneTitle'>Phone</h3></div>
                                 <div className='details'><h3 id='phone'>+94 (70) 327 4953</h3></div>
                             </div>
-                            <div className='personalDetailsGrid'>
+                            <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid'>
                                 <div className='title'><h3 id='cityTitle'>City</h3></div>
                                 <div className='details'><h3 id='city'>Kalutara, Sri Lanka</h3></div>
                             </div>
@@ -184,14 +184,14 @@ export const MainPage = () => {
                 </div>
                 
                 <div className='boxContainer' id='boxContainer1'>
-                    <div data-aos="fade-right" className='box'>
+                    <div data-aos="fade-right" data-aos-duration="2000" className='box'>
                         <DetailBox id={"ijse"} 
                         qualification={"Bsc (Hons) in Computer Science"}
                         institute={"Institute of Software Engineering"}
                         location={"Panadura"}
                         />
                     </div>
-                    <div data-aos="fade-right" className='box'>
+                    <div data-aos="fade-right" data-aos-duration="2000" className='box'>
                     <DetailBox id={"princess"} 
                         qualification={"Advance Level"}
                         institute={"Princess of Wales' College"}
@@ -200,14 +200,14 @@ export const MainPage = () => {
                     </div>
                 </div>
                 <div className='boxContainer' id='boxContainer2'>
-                    <div data-aos="fade-left" className='box'>
+                    <div data-aos="fade-left" data-aos-duration="2000" className='box'>
                     <DetailBox id={"esoft"} 
                         qualification={"Diploma in Information Technology"}
                         institute={"ESOFT Metro Campus"}
                         location={"Galle"}
                         />
                     </div>
-                    <div data-aos="fade-left" className='box'>
+                    <div data-aos="fade-left" data-aos-duration="2000" className='box'>
                     <DetailBox id={"siridhamma"} 
                         qualification={"Ordinary Level"}
                         institute={"Siridhamma College"}
@@ -216,7 +216,7 @@ export const MainPage = () => {
                     </div>
                 </div>
 
-                    <div data-aos="fade-up" className='skillContainer' id='skillContainer1'>
+                    <div data-aos="fade-up" data-aos-duration="2000" className='skillContainer' id='skillContainer1'>
                         <h3 className='skillType'>Languages and Databases</h3>
                         <div className='logoContainer' id='logoContainer1'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo1'></div></div>
@@ -229,7 +229,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo8'></div></div>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className='skillContainer' id='skillContainer2'>
+                    <div data-aos="fade-up" data-aos-duration="2000" className='skillContainer' id='skillContainer2'>
                         <h3 className='skillType'>Frameworks and Libraries</h3>
                         <div className='logoContainer' id='logoContainer2'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo9'></div></div>
@@ -239,7 +239,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo13'></div></div>   
                         </div>
                     </div>
-                    <div data-aos="fade-up" className='skillContainer' id='skillContainer3'>
+                    <div data-aos="fade-up" data-aos-duration="2000" className='skillContainer' id='skillContainer3'>
                         <h3 className='skillType'>Tools</h3>
                         <div className='logoContainer' id='logoContainer3'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo14'></div></div>
@@ -251,7 +251,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo20'></div></div>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className='skillContainer' id='skillContainer4'>
+                    <div data-aos="fade-up" data-aos-duration="2000" className='skillContainer' id='skillContainer4'>
                         <h3 className='skillType'>Architectures</h3>
                             <div id='skillType'>
                                 <h3 className='architecture' id='architecture1'>MVC Architectures</h3>
