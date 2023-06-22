@@ -1,14 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Typewriter from 'typewriter-effect';
 import DetailBox from '../compornent/DetailBox/DetailBox'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import './Style.css'
+import Aos from 'aos';
 
 
 
 export const MainPage = () => {
     const [counterOn,setCounterOn] = useState(false);
+    useEffect (()=>{
+        Aos.init();
+    },[])
 
     return (
         <div>
@@ -176,14 +184,14 @@ export const MainPage = () => {
                 </div>
                 
                 <div className='boxContainer' id='boxContainer1'>
-                    <div className='box'>
+                    <div data-aos="fade-right" className='box'>
                         <DetailBox id={"ijse"} 
                         qualification={"Bsc (Hons) in Computer Science"}
                         institute={"Institute of Software Engineering"}
                         location={"Panadura"}
                         />
                     </div>
-                    <div className='box'>
+                    <div data-aos="fade-right" className='box'>
                     <DetailBox id={"princess"} 
                         qualification={"Advance Level"}
                         institute={"Princess of Wales' College"}
@@ -192,14 +200,14 @@ export const MainPage = () => {
                     </div>
                 </div>
                 <div className='boxContainer' id='boxContainer2'>
-                    <div className='box'>
+                    <div data-aos="fade-left" className='box'>
                     <DetailBox id={"esoft"} 
                         qualification={"Diploma in Information Technology"}
                         institute={"ESOFT Metro Campus"}
                         location={"Galle"}
                         />
                     </div>
-                    <div className='box'>
+                    <div data-aos="fade-left" className='box'>
                     <DetailBox id={"siridhamma"} 
                         qualification={"Ordinary Level"}
                         institute={"Siridhamma College"}
@@ -208,7 +216,7 @@ export const MainPage = () => {
                     </div>
                 </div>
 
-                    <div className='skillContainer' id='skillContainer1'>
+                    <div data-aos="fade-up" className='skillContainer' id='skillContainer1'>
                         <h3 className='skillType'>Languages and Databases</h3>
                         <div className='logoContainer' id='logoContainer1'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo1'></div></div>
@@ -221,7 +229,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo8'></div></div>
                         </div>
                     </div>
-                    <div className='skillContainer' id='skillContainer2'>
+                    <div data-aos="fade-up" className='skillContainer' id='skillContainer2'>
                         <h3 className='skillType'>Frameworks and Libraries</h3>
                         <div className='logoContainer' id='logoContainer2'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo9'></div></div>
@@ -231,7 +239,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo13'></div></div>   
                         </div>
                     </div>
-                    <div className='skillContainer' id='skillContainer3'>
+                    <div data-aos="fade-up" className='skillContainer' id='skillContainer3'>
                         <h3 className='skillType'>Tools</h3>
                         <div className='logoContainer' id='logoContainer3'>
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo14'></div></div>
@@ -243,7 +251,7 @@ export const MainPage = () => {
                             <div className='subLogoContainer'><div className='skillLogo' id='skillLogo20'></div></div>
                         </div>
                     </div>
-                    <div className='skillContainer' id='skillContainer4'>
+                    <div data-aos="fade-up" className='skillContainer' id='skillContainer4'>
                         <h3 className='skillType'>Architectures</h3>
                             <div id='skillType'>
                                 <h3 className='architecture' id='architecture1'>MVC Architectures</h3>
