@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Typewriter from 'typewriter-effect';
 import DetailBox from '../compornent/DetailBox/DetailBox'
 import CountUp from 'react-countup';
@@ -17,6 +17,11 @@ export const MainPage = () => {
     useEffect (()=>{
         Aos.init();
     },[])
+
+    const ref = useRef(null);
+    const handleClick=()=>{
+        ref.current?.scrollInToView({behavior:'smooth'});
+    };
 
     return (
         <div>
@@ -44,7 +49,7 @@ export const MainPage = () => {
 
             {/* home page... */}
 
-            <div className='homeImg'>
+            <div id='home' className='homeImg'>
                 <div className='home'>
                     <div id='textBox'>
                     <h3 id='welcome'>Welcome</h3>
@@ -72,7 +77,7 @@ export const MainPage = () => {
 
             {/* about page... */}
 
-            <div className='about'>
+            <div id='about' className='about'>
                 <div className='headerContainer'>
                     <h1 className='header' id='aboutTitle'>ABOUT ME</h1>
                     <h2 className='subHeader'>Know Me More</h2>
@@ -156,7 +161,7 @@ export const MainPage = () => {
 
             {/* resume page... */}
 
-            <div className='resume'>
+            <div id='resume' className='resume'>
                 <div className='headerContainer'>
                     <h1 className='header' id='resumeTitle'>SAMMARY</h1>
                     <h2 className='subHeader'>Resume</h2>
