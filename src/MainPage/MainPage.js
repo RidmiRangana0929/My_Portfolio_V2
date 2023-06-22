@@ -234,17 +234,22 @@ export const MainPage = () => {
                     <div className='skillContainer' id='skillContainer3'>
                         <h3 className='skillType'>Tools</h3>
                         <div className='logoContainer' id='logoContainer3'>
-                        <div className='skillLogo'></div>
                             <div className='skillLogo' id='skillLogo14'></div>
                             <div className='skillLogo' id='skillLogo15'></div>
                             <div className='skillLogo' id='skillLogo16'></div>
                             <div className='skillLogo' id='skillLogo17'></div>
                             <div className='skillLogo' id='skillLogo18'></div>
                             <div className='skillLogo' id='skillLogo19'></div>
+                            <div className='skillLogo' id='skillLogo20'></div>
                         </div>
                     </div>
                     <div className='skillContainer' id='skillContainer4'>
                         <h3 className='skillType'>Architectures</h3>
+                            <div id='skillType'>
+                            <h3 className='architecture' id='architecture1'>MVC Architectures</h3>
+                            <h3 className='architecture' id='architecture1'>,</h3>
+                            <h3 className='architecture' id='architecture2'>Layered Architectures</h3>
+                            </div>
                     </div>
 
                 {/* <div className='mainSkillContainer'></div> */}

@@ -558,6 +558,45 @@
 #skillLogo13{
     background-image: url("./Images/icons/skills/other/metirialUI.png");
 }
+#skillLogo14{
+    background-image: url("./Images/icons/skills/other/figma.png");
+}
+#skillLogo15{
+    background-image: url("./Images/icons/skills/other/visualstudio.png");
+}
+#skillLogo16{
+    background-image: url("./Images/icons/skills/other/androidStudio.png");
+}
+#skillLogo17{
+    background-image: url("./Images/icons/skills/other/git.png");
+}
+#skillLogo18{
+    background-image: url("./Images/icons/skills/other/intellijIdea.png");
+}
+#skillLogo19{
+    background-image: url("./Images/icons/skills/other/sceneBuilder.png");
+}
+#skillLogo20{
+    background-image: url("./Images/icons/skills/other/photoshop.png");
+}
+#skillType{
+    display: flex;
+    gap: 2.2vw;
+    position: relative;
+    margin: auto;
+    width: 24.9vw;
+    height: 5vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.architecture{
+    font-family: 'Inter', sans-serif;
+    color: #363F4B;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+}
 /* ============================================================================================================================================ */
 
 
