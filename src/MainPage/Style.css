@@ -490,7 +490,8 @@
 }
 .skillType{
     font-family: 'Inter', sans-serif;
-    margin: 5vh;
+    margin-bottom: 4vh;
+    margin-top: 6vh;
     color: #111418;
     font-weight: 500;
     font-size: 1.3em;
@@ -508,7 +509,7 @@
     width: 118vh;
 }
 #logoContainer2{
-    width: 90vh;
+    width: 70vh;
 }
 #logoContainer3{
     width: 102vh;
@@ -519,17 +520,18 @@
     width: 6vh;
     height: 6vh;
     border-radius: 5px;
-    transition: all 0.3s;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 .subLogoContainer:hover{
-    border-color: 1px solid #81858b;
+    border-color: 1px solid #6a6c70;
     -webkit-box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93); 
 box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
 }
 .skillLogo{
-    margin: 0.985vh;
-    width: 4vh;
-    height: 4vh;
+    margin: 0.5vh;
+    width: 5vh;
+    height: 5vh;
     background-size: contain;
     background-repeat: no-repeat;
 }
