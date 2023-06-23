@@ -333,8 +333,6 @@ export const MainPage = () => {
                             </div>
                     </div>
 
-                {/* <div className='mainSkillContainer'></div> */}
-
             </div>
 
         </div>
