@@ -622,6 +622,68 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
 /* ============================================================================================================================================ */
 
 
+/* home page... */
+.project{
+    background-color: #ffffff;
+    position: relative;
+    width: 81.9vw;
+    left: 17vw;
+    height: 280vh;
+}
+#cardContainer{
+    position: absolute;
+    margin: auto;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    width: 62vw;
+    height: 124vh;
+    display: flex;
+    gap: 15px;
+}
+.cardColumn{
+    display: grid;
+    gap: 15px;
+}
+#cardColumn1{
+    height: 122vh;
+}
+#cardColumn2{
+    height: 124vh;
+}
+#cardColumn3{
+    height: 92vh;
+}
+.longCard{
+    width: 20vw;
+    height: 60vh;
+    background-color: #f1d788;
+    border-radius: 10px;
+}
+.shortCard{
+    width: 20vw;
+    height: 30vh;
+    background-color: #077bff;
+    border-radius: 10px;
+}
+#seeMore{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 165vh;
+    color: #ffffff;
+    background-color: #FFC107;
+    width: 10vw;
+    border-color: #ffffff00;
+}
+#seeMore:hover{
+    background-color: rgb(0 0 0 / 0%);
+    border: 2.5px solid #FFC107;
+    color: #ffc107;
+}
+
+
 
 
 
