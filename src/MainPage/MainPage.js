@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Typewriter from 'typewriter-effect';
-import DetailBox from '../compornent/DetailBox/DetailBox'
+import DetailBox from '../compornent/DetailBox/DetailBox';
+import LongCard from '../compornent/LongCard/LongCard';
+import ShortCard from '../compornent/ShortCard/ShortCard';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 
@@ -360,11 +362,15 @@ export const MainPage = () => {
 
                 <div id='cardContainer'>
                     <div className='cardColumn' id='cardColumn1'>
-                        <div className='longCard'></div>
+                        <div className='longCard'>
+                            <LongCard/>
+                        </div>
                         <div className='longCard'></div>
                     </div>
                     <div className='cardColumn' id='cardColumn2'>
-                        <div className='shortCard'></div>
+                        <div className='shortCard'>
+                            <ShortCard/>
+                        </div>
                         <div className='longCard'></div>
                         <div className='shortCard'></div>
                     </div>
