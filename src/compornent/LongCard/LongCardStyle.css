@@ -1,0 +1,51 @@
+.mainContainer1{
+    width: 20vw;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+#carRent{
+    background-image: url("./bacgroundImages/carRental.jpg");
+}
+#stockManagement{
+    background-image: url("./bacgroundImages/stockManagement.jpg");
+}
+#carPark{
+    background-image: url("./bacgroundImages/carPark.jpg");
+}
+#superMarket{
+    background-image: url("./bacgroundImages/supeerMarket.jpg");
+}
+.cardBanner{
+    width: 20vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    top: 50vh;
+}
+.cardHeader{
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.1em;
+    height: 3vh;
+    position: relative;
+    top: 2vh;
+}
+.viewProject{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 0.9em;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    top: 2vh;
+    color: #FFC107;
+    border-bottom: 1px solid #FFC107;
+}
+.viewProject:hover{
+    cursor: pointer;
+}

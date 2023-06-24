@@ -1,0 +1,15 @@
+.mainContainer2{
+    width: 20vw;
+    height: 30vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+#studentManagement{
+    background-image: url("./backgroundImages/studentManagement.jpg");
+}
+#hotel{
+    background-image: url("./backgroundImages/hotel.jpg");
+}
+#hostel{
+    background-image: url("./backgroundImages/hostel.jpg");
+}

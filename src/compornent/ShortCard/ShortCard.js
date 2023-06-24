@@ -1,8 +1,8 @@
 import React from 'react'
 import './ShortCardStyle.css'
 
-export default function ShortCard () {
+export default function ShortCard (props) {
   return (
-    <div>ShortCard</div>
+    <div className='mainContainer2' id={props.id}></div>
   )
 }

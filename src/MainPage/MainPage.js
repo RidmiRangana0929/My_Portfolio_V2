@@ -363,20 +363,30 @@ export const MainPage = () => {
                 <div id='cardContainer'>
                     <div className='cardColumn' id='cardColumn1'>
                         <div className='longCard'>
-                            <LongCard/>
+                            <LongCard id={"carRent"} cardHeader={"Car Rental Web Application"}/>
                         </div>
-                        <div className='longCard'></div>
+                        <div className='longCard'>
+                            <LongCard id={"stockManagement"} cardHeader={"Stock Managment System"}/>
+                        </div>
                     </div>
                     <div className='cardColumn' id='cardColumn2'>
                         <div className='shortCard'>
-                            <ShortCard/>
+                            <ShortCard id={"studentManagement"}/>
                         </div>
-                        <div className='longCard'></div>
-                        <div className='shortCard'></div>
+                        <div className='longCard'>
+                            <LongCard id={"carPark"} cardHeader={"Car Parking System"}/>
+                        </div>
+                        <div className='shortCard'>
+                            <ShortCard id={"hotel"}/>
+                        </div>
                     </div>
                     <div className='cardColumn' id='cardColumn3'>
-                        <div className='longCard'></div>
-                        <div className='shortCard'></div>
+                        <div className='longCard'>
+                            <LongCard id={"superMarket"} cardHeader={"Supermaeket System"}/>
+                        </div>
+                        <div className='shortCard'>
+                            <ShortCard id={"hostel"}/>
+                        </div>
                     </div>
                 </div>
                 <button className='button' id='seeMore' >See More</button>
