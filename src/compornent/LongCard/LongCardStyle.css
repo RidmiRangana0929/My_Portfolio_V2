@@ -16,15 +16,15 @@
 #superMarket{
     background-image: url("./bacgroundImages/supeerMarket.jpg");
 }
-.cardBanner{
+.cardBanner1{
     width: 20vw;
     height: 10vh;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.455);
     position: relative;
     border-radius: 0 0 20px 20px;
     top: 50vh;
 }
-.cardHeader{
+.cardHeader1{
     font-family: 'Inter', sans-serif;
     height: fit-content;
     color: #ffffff;
@@ -35,7 +35,7 @@
     position: relative;
     top: 2vh;
 }
-.viewProject{
+.viewProject1{
     font-family: 'Inter', sans-serif;
     font-weight: 200;
     font-size: 0.9em;
@@ -46,6 +46,6 @@
     color: #FFC107;
     border-bottom: 1px solid #FFC107;
 }
-.viewProject:hover{
+.viewProject1:hover{
     cursor: pointer;
 }

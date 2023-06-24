@@ -13,3 +13,36 @@
 #hostel{
     background-image: url("./backgroundImages/hostel.jpg");
 }
+.cardBanner2{
+    width: 20vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    top: 20vh;
+}
+.cardHeader2{
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.1em;
+    height: 3vh;
+    position: relative;
+    top: 2vh;
+}
+.viewProject2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 0.9em;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    top: 2vh;
+    color: #FFC107;
+    border-bottom: 1px solid #FFC107;
+}
+.viewProject2:hover{
+    cursor: pointer;
+}

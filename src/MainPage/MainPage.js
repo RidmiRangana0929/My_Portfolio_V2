@@ -371,13 +371,13 @@ export const MainPage = () => {
                     </div>
                     <div className='cardColumn' id='cardColumn2'>
                         <div className='shortCard'>
-                            <ShortCard id={"studentManagement"}/>
+                            <ShortCard id={"studentManagement"} cardHeader={"Student Managment System"}/>
                         </div>
                         <div className='longCard'>
                             <LongCard id={"carPark"} cardHeader={"Car Parking System"}/>
                         </div>
                         <div className='shortCard'>
-                            <ShortCard id={"hotel"}/>
+                            <ShortCard id={"hotel"} cardHeader={"Hotel Managment System"}/>
                         </div>
                     </div>
                     <div className='cardColumn' id='cardColumn3'>
@@ -385,7 +385,7 @@ export const MainPage = () => {
                             <LongCard id={"superMarket"} cardHeader={"Supermaeket System"}/>
                         </div>
                         <div className='shortCard'>
-                            <ShortCard id={"hostel"}/>
+                            <ShortCard id={"hostel"} cardHeader={"Hostel Managment System"}/>
                         </div>
                     </div>
                 </div>
