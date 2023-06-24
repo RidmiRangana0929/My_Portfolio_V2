@@ -18,10 +18,21 @@ export const MainPage = () => {
         Aos.init();
     },[])
 
-    const ref = useRef(null);
-    const handleClick=()=>{
-        ref.current?.scrollInToView({behavior:'smooth'});
-
+    const homePage = useRef();
+    const aboutPage = useRef();
+    const resumePage = useRef();
+    const projectPage = useRef();
+    const homeHandleClick = (elmRef) => {
+        window.scrollTo({top:0,behavior:'smooth'});
+    }; 
+    const aboutHandleClick = (elmRef) => {
+        window.scrollTo({top:760,behavior:'smooth'});
+    }; 
+    const resumeHandleClick = (elmRef) => {
+        window.scrollTo({top:1520,behavior:'smooth'});
+    }; 
+    const projectHandleClick = (elmRef) => {
+        window.scrollTo({top:3500,behavior:'smooth'});
     };
 
     const loadMoreDetaillsAboutSkill1 =()=>{
@@ -98,10 +109,10 @@ export const MainPage = () => {
 
             <div className='navBar'>
                 <div className='btnGrid'>
-                    <button className='navBtn'>Home</button>
-                    <button className='navBtn'>About</button>
-                    <button className='navBtn'>Resume</button>
-                    <button className='navBtn'>Projects</button>
+                    <button className='navBtn' onClick={homeHandleClick}>Home</button>
+                    <button className='navBtn' onClick={aboutHandleClick}>About</button>
+                    <button className='navBtn' onClick={resumeHandleClick}>Resume</button>
+                    <button className='navBtn' onClick={projectHandleClick}>Projects</button>
                     <button className='navBtn'>Services</button>
                     <button className='navBtn'>Contacts</button>
                 </div>
@@ -117,7 +128,7 @@ export const MainPage = () => {
 
             {/* home page... */}
 
-            <div id='home' className='homeImg'>
+            <div ref={homePage} id='home' className='homeImg'>
                 <div className='home'>
                     <div id='textBox'>
                     <h3 id='welcome'>Welcome</h3>
@@ -134,7 +145,7 @@ export const MainPage = () => {
                                 autoStart: true,
                                 loop: true,
                             }}
-                            />    
+                        />    
                     </div>
                     <div className='gap'></div>
                     <button id='hireMe' className='button'>Hire Me</button>
@@ -144,11 +155,12 @@ export const MainPage = () => {
 
 
             {/* about page... */}
+            
 
-            <div id='about' className='about'>
+            <div ref={aboutPage} id='about' className='about'>
                 <div className='headerContainer'>
                     <h1 className='header' id='aboutTitle'>ABOUT ME</h1>
-                    <h2 className='subHeader'>Know Me More</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Know Me More</h2>
                     <div className='underline'></div>
                 </div>
 
@@ -164,7 +176,7 @@ export const MainPage = () => {
                             <br/><br/>
                             I love to explore about new technologies.
                             Therefore self-study is my personal favorite.
-                                Also I like to improve my skills by working on different types of projects.</p>
+                            Also I like to improve my skills by working on different types of projects.</p>
                         </div>
                         <div id='personalDetails'>
                             <div data-aos="fade-up" data-aos-duration="2000" className='personalDetailsGrid' id='personalDetailsGrid1'>
@@ -225,14 +237,15 @@ export const MainPage = () => {
                     </div>
                 </div>
             </div>
+            
 
 
             {/* resume page... */}
 
-            <div id='resume' className='resume'>
+            <div ref={resumePage} id='resume' className='resume'>
                 <div className='headerContainer'>
                     <h1 className='header' id='resumeTitle'>SAMMARY</h1>
-                    <h2 className='subHeader'>Resume</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Resume</h2>
                     <div className='underline'></div>
                 </div>
 
@@ -334,6 +347,11 @@ export const MainPage = () => {
                     </div>
 
             </div>
+
+
+            {/* project page... */}
+
+            <div ref={projectPage} id='project' className='project'></div>
 
         </div>
     )
