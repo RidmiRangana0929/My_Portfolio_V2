@@ -6,7 +6,7 @@ export default function LongCard (props) {
     <div className='mainContainer1' id={props.id}>
         <div className='cardBanner1'>
             <h3 className='cardHeader1'>{props.cardHeader}</h3>
-            <h4 className='viewProject1'>View Project</h4>
+            <a className='anchorTag1' href={props.url}>View Project</a>
         </div>
     </div>
   )

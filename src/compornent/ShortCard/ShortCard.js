@@ -6,7 +6,7 @@ export default function ShortCard (props) {
     <div className='mainContainer2' id={props.id}>
         <div className='cardBanner2'>
             <h3 className='cardHeader2'>{props.cardHeader}</h3>
-            <h4 className='viewProject2'>View Project</h4>
+            <a className='anchorTag2' href={props.url}>View Project</a>
         </div>
     </div>
   )

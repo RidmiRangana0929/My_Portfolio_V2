@@ -5,8 +5,6 @@ import LongCard from '../compornent/LongCard/LongCard';
 import ShortCard from '../compornent/ShortCard/ShortCard';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
-
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import './Style.css'
@@ -363,29 +361,29 @@ export const MainPage = () => {
                 <div id='cardContainer'>
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='cardColumn' id='cardColumn1'>
                         <div className='longCard'>
-                            <LongCard id={"carRent"} cardHeader={"Car Rental Web Application"}/>
+                            <LongCard id={"carRent"} cardHeader={"Car Rental Web Application"} url={"https://github.com/RidmiRangana0929/CarRentalSystem_WebApplication"}/>
                         </div>
                         <div className='longCard'>
-                            <LongCard id={"stockManagement"} cardHeader={"Stock Managment System"}/>
+                            <LongCard id={"stockManagement"} cardHeader={"Stock Managment System"} url={"https://github.com/RidmiRangana0929/CraftShopManagementSystem"}/>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" className='cardColumn' id='cardColumn2'>
                         <div className='shortCard'>
-                            <ShortCard id={"studentManagement"} cardHeader={"Student Managment System"}/>
+                            <ShortCard id={"studentManagement"} cardHeader={"Student Managment System"} url={"https://github.com/RidmiRangana0929/StudentManagementSystem-IJSE-"}/>
                         </div>
                         <div className='longCard'>
-                            <LongCard id={"carPark"} cardHeader={"Car Parking System"}/>
+                            <LongCard id={"carPark"} cardHeader={"Car Parking System"} url={"https://github.com/RidmiRangana0929/ParkingSystem"}/>
                         </div>
                         <div className='shortCard'>
-                            <ShortCard id={"hotel"} cardHeader={"Hotel Managment System"}/>
+                            <ShortCard id={"hotel"} cardHeader={"Hotel Managment System"} url={"https://github.com/RidmiRangana0929/HotelReservationSystem"}/>
                         </div>
                     </div>
                     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500" className='cardColumn' id='cardColumn3'>
                         <div className='longCard'>
-                            <LongCard id={"superMarket"} cardHeader={"Supermaeket System"}/>
+                            <LongCard id={"superMarket"} cardHeader={"Supermaeket System"} url={"https://github.com/RidmiRangana0929/LayeredArchitectureCW"}/>
                         </div>
                         <div className='shortCard'>
-                            <ShortCard id={"hostel"} cardHeader={"Hostel Managment System"}/>
+                            <ShortCard id={"hostel"} cardHeader={"Hostel Managment System"} url={"https://github.com/RidmiRangana0929/D24HostelManagementSystem"}/>
                         </div>
                     </div>
                 </div>

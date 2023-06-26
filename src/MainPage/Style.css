@@ -657,13 +657,11 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
 .longCard{
     width: 20vw;
     height: 60vh;
-    background-color: #f1d788;
     border-radius: 20px;
 }
 .shortCard{
     width: 20vw;
     height: 30vh;
-    background-color: #077bff;
     border-radius: 20px;
 }
 #seeMore{
@@ -682,6 +680,7 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     border: 2.5px solid #FFC107;
     color: #ffc107;
 }
+
 
 
 

@@ -35,17 +35,11 @@
     position: relative;
     top: 2vh;
 }
-.viewProject1{
+.anchorTag1{
     font-family: 'Inter', sans-serif;
+    color: #ffc107;
     font-weight: 200;
     font-size: 0.9em;
     position: relative;
-    margin: auto;
-    width: fit-content;
     top: 2vh;
-    color: #FFC107;
-    border-bottom: 1px solid #FFC107;
-}
-.viewProject1:hover{
-    cursor: pointer;
 }
