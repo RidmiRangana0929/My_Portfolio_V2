@@ -361,7 +361,7 @@ export const MainPage = () => {
                 </div>
 
                 <div id='cardContainer'>
-                    <div className='cardColumn' id='cardColumn1'>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='cardColumn' id='cardColumn1'>
                         <div className='longCard'>
                             <LongCard id={"carRent"} cardHeader={"Car Rental Web Application"}/>
                         </div>
@@ -369,7 +369,7 @@ export const MainPage = () => {
                             <LongCard id={"stockManagement"} cardHeader={"Stock Managment System"}/>
                         </div>
                     </div>
-                    <div className='cardColumn' id='cardColumn2'>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" className='cardColumn' id='cardColumn2'>
                         <div className='shortCard'>
                             <ShortCard id={"studentManagement"} cardHeader={"Student Managment System"}/>
                         </div>
@@ -380,7 +380,7 @@ export const MainPage = () => {
                             <ShortCard id={"hotel"} cardHeader={"Hotel Managment System"}/>
                         </div>
                     </div>
-                    <div className='cardColumn' id='cardColumn3'>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500" className='cardColumn' id='cardColumn3'>
                         <div className='longCard'>
                             <LongCard id={"superMarket"} cardHeader={"Supermaeket System"}/>
                         </div>
