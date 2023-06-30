@@ -22,6 +22,7 @@ export const MainPage = () => {
     const aboutPage = useRef();
     const resumePage = useRef();
     const projectPage = useRef();
+    const servicePage= useRef();
     const homeHandleClick = (elmRef) => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -33,6 +34,9 @@ export const MainPage = () => {
     };
     const projectHandleClick = (elmRef) => {
         window.scrollTo({ top: 3645, behavior: 'smooth' });
+    };
+    const serviceHandleClick = (elmRef) => {
+        window.scrollTo({ top: 5050, behavior: 'smooth' });
     };
 
     const loadMoreDetaillsAboutSkill1 = () => {
@@ -113,7 +117,7 @@ export const MainPage = () => {
                     <button className='navBtn' onClick={aboutHandleClick}>About</button>
                     <button className='navBtn' onClick={resumeHandleClick}>Resume</button>
                     <button className='navBtn' onClick={projectHandleClick}>Projects</button>
-                    <button className='navBtn'>Services</button>
+                    <button className='navBtn' onClick={serviceHandleClick}>Services</button>
                     <button className='navBtn'>Contacts</button>
                 </div>
                 <div className='socialMediaIconGrid'>
@@ -388,6 +392,19 @@ export const MainPage = () => {
                     </div>
                 </div>
                 <button className='button' id='seeMore' >See More</button>
+
+            </div>
+
+
+            {/* service page... */}
+
+            <div ref={servicePage} id='service' className='service'>
+                <div className='headerContainer'>
+                    <h1 className='header' id='resumeTitle'>SERVICES</h1>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>What I Do</h2>
+                    <div className='underline'></div>
+                </div>
+                
 
             </div>
         </div>
