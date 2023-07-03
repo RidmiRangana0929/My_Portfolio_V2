@@ -722,7 +722,60 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     left: 17vw;
     height: 100vh;
 }
+.contactContainer1{
+    background-color: #363F4B;
+    position: absolute;
+    top: 35vh;
+    left: 7vw;
+    width: 35vw;
+    display: grid;
+    gap: 6vh;
+}
+.contactContainer2{
+    position: absolute;
+    top: 35vh;
+    right: 7vw;
+    width: 35vw;
+    display: grid;
+    gap: 6vh;
+}
+#send{
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    background-color: #FFC107;
+    width: 10vw;
+    border-color: #ffffff00;
+}
+.textField1{
+    width: 35vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1.5px solid #A2ABB7;
+}
+.textField1:focus-visible{
+    visibility: 0;
+    border: 1.5px solid #FFC107;
+}
+.contactLable{
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 1.5vh;
+    left: 0.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #A2ABB7;
+    width: 5vw;
+    transition: all 0.7s;
+}
 
+/* .textField1:focus + .contactLable{
+    transform: translate(0px, -21px);
+    font-size: 0.85em;
+    color: #FFC107;
+} */
 
 
 

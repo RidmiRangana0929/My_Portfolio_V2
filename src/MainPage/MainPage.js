@@ -7,6 +7,7 @@ import ServiceBox from '../compornent/ServiceBox/ServiceBox'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import 'aos/dist/aos.css';
+import TextField from '@mui/material/TextField';
 
 import './Style.css'
 import Aos from 'aos';
@@ -432,11 +433,25 @@ export const MainPage = () => {
             {/* contact page... */}  
 
             <div id='contact' className='contact'>
-            <div className='headerContainer'>
+                <div className='headerContainer'>
                     <h1 className='header' id='resumeTitle'>CONTACTS</h1>
                     <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Get in Touch</h2>
                     <div className='underline'></div>
-                </div></div>          
+                </div>
+                <div className='contactContainer1'></div>
+                <div className='contactContainer2'>
+                    <TextField className='textField' id="name" label="Full Name" variant="outlined" />
+                    <TextField className='textField' id="email" label="Email" variant="outlined"  />
+                    <TextField
+                    className='textField'
+                    id="message"
+                    label="Message"
+                    multiline
+                    rows={6}
+                    />
+                    <button className='button' id='send'>Send</button>
+                </div>
+            </div>          
         </div>
     )
 }
