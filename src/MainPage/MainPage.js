@@ -427,6 +427,16 @@ export const MainPage = () => {
                     />
                 </div>
             </div>
+
+
+            {/* contact page... */}  
+
+            <div id='contact' className='contact'>
+            <div className='headerContainer'>
+                    <h1 className='header' id='resumeTitle'>CONTACTS</h1>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Get in Touch</h2>
+                    <div className='underline'></div>
+                </div></div>          
         </div>
     )
 }

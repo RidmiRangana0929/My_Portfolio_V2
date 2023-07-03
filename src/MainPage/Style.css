@@ -168,7 +168,7 @@
     height: 100vh;
     background-attachment: fixed;
     position: relative;
-    background-position: 158%;
+    background-position: 233%;
     background-repeat: no-repeat;
     background-size: contain;
     transition: background-image .3s ease-in .2s;
@@ -711,7 +711,17 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     position: absolute;
     margin: auto;
 }
+/* ============================================================================================================================================ */
 
+
+/* contact page... */
+.contact{
+    background-color: #ffffff;
+    position: relative;
+    width: 81.9vw;
+    left: 17vw;
+    height: 100vh;
+}
 
 
 
