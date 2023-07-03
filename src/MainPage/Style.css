@@ -690,27 +690,26 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     position: relative;
     width: 81.9vw;
     left: 17vw;
-    height: 200vh;
+    height: 100vh;
 }
 #mainContainer1{
-    top: 30vh;
-    left: 23vh;
+    top: 33vh;
+    left: 15vh;
 }
 #mainContainer2{
-    top: 30vh;
-    right: 23vh;
+    top: 33vh;
+    right: 15vh;
 }
 #mainContainer3{
-    top: 96vh;
+    top: 33vh;
     left: 0;
     right: 0;
 }
 .mainContainer{
-    width: 25vw;
+    width: 20vw;
     height: 50vh;
     position: absolute;
     margin: auto;
-    background-color: #5F6F85;
 }
 
 

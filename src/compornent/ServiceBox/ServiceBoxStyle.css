@@ -1,0 +1,67 @@
+#mainContainer{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93); 
+    box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
+}
+#mainContainer:hover{
+    
+}
+
+.serviceImg{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+#webDevelop{
+    background-image: url("./services/world-wide-web.png");
+}
+#softDevelop{
+    background-image: url("./services/computer\ \(1\).png");
+}
+#uiux{
+    background-image: url("./services/ux.png");
+}
+.serviceTitle{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #111418;
+    font-weight: 500;
+    font-size: 1.3em;
+    top: 14vh;
+} 
+.serviceInfo{
+    width: 15vw;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #5f6f85;
+    font-weight: 400;
+    font-size: 0.85em;
+    top: 15vh;
+}
+.serviceSeeMore{
+    font-family: 'Inter', sans-serif;
+    color: #ffc107;
+    font-weight: 400;
+    font-size: 1em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 42vh;
+}

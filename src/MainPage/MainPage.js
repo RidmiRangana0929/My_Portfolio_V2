@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import DetailBox from '../compornent/DetailBox/DetailBox';
 import LongCard from '../compornent/LongCard/LongCard';
 import ShortCard from '../compornent/ShortCard/ShortCard';
+import ServiceBox from '../compornent/ServiceBox/ServiceBox'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import 'aos/dist/aos.css';
@@ -36,7 +37,7 @@ export const MainPage = () => {
         window.scrollTo({ top: 3645, behavior: 'smooth' });
     };
     const serviceHandleClick = (elmRef) => {
-        window.scrollTo({ top: 5050, behavior: 'smooth' });
+        window.scrollTo({ top: 5025, behavior: 'smooth' });
     };
 
     const loadMoreDetaillsAboutSkill1 = () => {
@@ -404,9 +405,27 @@ export const MainPage = () => {
                     <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>What I Do</h2>
                     <div className='underline'></div>
                 </div>
-                <div id='mainContainer1' className='mainContainer'></div>
-                <div id='mainContainer2' className='mainContainer'></div>
-                <div id='mainContainer3' className='mainContainer'></div>
+                <div data-aos="fade-up" data-aos-duration="1000" id='mainContainer1' className='mainContainer'>
+                    <ServiceBox 
+                    id={"webDevelop"}
+                    serviceTitle={"Web Development"}
+                    serviceInfo={"Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser."}
+                    />
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" id='mainContainer2' className='mainContainer'>
+                    <ServiceBox
+                        id={"softDevelop"}
+                        serviceTitle={"Software Development"}
+                        serviceInfo={"Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software."}
+                    />
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" id='mainContainer3' className='mainContainer'>
+                    <ServiceBox
+                        id={"uiux"}
+                        serviceTitle={"UIUX Designing"}
+                        serviceInfo={"User interface (UI) design is the process designers use to build interfaces in software or computerized devices, focusing on looks or style."}
+                    />
+                </div>
             </div>
         </div>
     )
