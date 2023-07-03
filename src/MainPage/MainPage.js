@@ -404,11 +404,9 @@ export const MainPage = () => {
                     <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>What I Do</h2>
                     <div className='underline'></div>
                 </div>
-                <div className='mainContainer'>
-                    <div className='container1'></div>
-                    <div className='container2'></div>
-                </div>
-
+                <div id='mainContainer1' className='mainContainer'></div>
+                <div id='mainContainer2' className='mainContainer'></div>
+                <div id='mainContainer3' className='mainContainer'></div>
             </div>
         </div>
     )
