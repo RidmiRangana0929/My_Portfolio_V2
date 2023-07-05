@@ -160,7 +160,7 @@
 
 
 /* home page... */
-.homeImg{
+/* .homeImg{
     background-image: url("./Images/Untitled\ design\ \(13\).png");
     position: absolute;
     width: 81.9vw;
@@ -233,12 +233,12 @@
 .gap{
     width: 100%;
     height: 5vh;
-}
+} */
 
 /* ============================================================================================================================================ */
 
 /* about page... */
-.about{
+/* .about{
     background-color: #ffffff;
     position: relative;
     width: 81.9vw;
@@ -377,7 +377,7 @@
     color: #363F4B;
     font-weight: 500;
     font-size: 0.9em;
-}
+} */
 
 /* ============================================================================================================================================ */
 
@@ -723,21 +723,22 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     height: 100vh;
 }
 .contactContainer1{
-    background-color: #363F4B;
     position: absolute;
-    top: 35vh;
+    top: 36vh;
     left: 7vw;
-    width: 35vw;
+    height: 40vh;
+    width: 30vw;
     display: grid;
-    gap: 6vh;
+    gap: 4vh;
 }
 .contactContainer2{
+    height: 48vh;
     position: absolute;
-    top: 35vh;
+    top: 36vh;
     right: 7vw;
     width: 35vw;
     display: grid;
-    gap: 6vh;
+    gap: 0vh;
 }
 #send{
     position: relative;
@@ -776,7 +777,51 @@ box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
     font-size: 0.85em;
     color: #FFC107;
 } */
-
+.addressBox{
+    width: 30vw;
+    height: 22vh;
+}
+.emailBox{
+    /* background-color: rgb(245, 199, 179); */
+    width: 30vw;
+    height: 5vh;
+}
+.phoneBox{
+    width: 30vw;
+    height: 5vh;
+}
+#addressImg, #emailImg, #phoneImg{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#addressImg{
+    background-image: url("../MainPage/Images/icons/contacts/location.png");
+    top: -0.2vh;
+}
+#emailImg{
+    background-image: url("../MainPage/Images/icons/contacts/email.png");
+    top: -0.5vh;
+}
+#phoneImg{
+    background-image: url("../MainPage/Images/icons/contacts/phone-call.png");
+    top: -0.5vh;
+}
+#contactAddress, #contactEmail, #contactPhone{
+    width: fit-content;
+    position: relative;
+    top: -3.5vh;
+    left: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #6f7379;
+    height: 2vh;
+    text-align: left;
+}
 
 
 

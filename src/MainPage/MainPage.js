@@ -4,6 +4,8 @@ import DetailBox from '../compornent/DetailBox/DetailBox';
 import LongCard from '../compornent/LongCard/LongCard';
 import ShortCard from '../compornent/ShortCard/ShortCard';
 import ServiceBox from '../compornent/ServiceBox/ServiceBox'
+import { HomePage } from './HomePage/HomePage';
+import { AboutPage } from './AboutPage/AboutPage';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import 'aos/dist/aos.css';
@@ -25,6 +27,7 @@ export const MainPage = () => {
     const resumePage = useRef();
     const projectPage = useRef();
     const servicePage= useRef();
+    const contactePage= useRef();
     const homeHandleClick = (elmRef) => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -39,6 +42,9 @@ export const MainPage = () => {
     };
     const serviceHandleClick = (elmRef) => {
         window.scrollTo({ top: 5025, behavior: 'smooth' });
+    };
+    const contactHandleClick = (elmRef) => {
+        window.scrollTo({ top: 6000, behavior: 'smooth' });
     };
 
     const loadMoreDetaillsAboutSkill1 = () => {
@@ -120,7 +126,7 @@ export const MainPage = () => {
                     <button className='navBtn' onClick={resumeHandleClick}>Resume</button>
                     <button className='navBtn' onClick={projectHandleClick}>Projects</button>
                     <button className='navBtn' onClick={serviceHandleClick}>Services</button>
-                    <button className='navBtn'>Contacts</button>
+                    <button className='navBtn' onClick={contactHandleClick}>Contacts</button>
                 </div>
                 <div className='socialMediaIconGrid'>
                     <div className='socialMedia' id='facebook'></div>
@@ -133,37 +139,13 @@ export const MainPage = () => {
 
 
             {/* home page... */}
-
-            <div ref={homePage} id='home' className='homeImg'>
-                <div className='home'>
-                    <div id='textBox'>
-                        <h3 id='welcome'>Welcome</h3>
-                        <div className='gap'></div>
-                        <div id='typewriter'>
-                            I'm a
-                            <Typewriter
-                                options={{
-                                    strings: [
-                                        "Software Developer.",
-                                        "Web Developer.",
-                                        "UI/UX Designer."
-                                    ],
-                                    autoStart: true,
-                                    loop: true,
-                                }}
-                            />
-                        </div>
-                        <div className='gap'></div>
-                        <button id='hireMe' className='button'>Hire Me</button>
-                    </div>
-                </div>
-            </div>
+            <HomePage ref={homePage}/>
 
 
             {/* about page... */}
+            <AboutPage ref={aboutPage}/>
 
-
-            <div ref={aboutPage} id='about' className='about'>
+            {/* <div ref={aboutPage} id='about' className='about'>
                 <div className='headerContainer'>
                     <h1 className='header' id='aboutTitle'>ABOUT ME</h1>
                     <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Know Me More</h2>
@@ -242,7 +224,7 @@ export const MainPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -432,13 +414,33 @@ export const MainPage = () => {
 
             {/* contact page... */}  
 
-            <div id='contact' className='contact'>
+            <div ref={contactePage} id='contact' className='contact'>
                 <div className='headerContainer'>
                     <h1 className='header' id='resumeTitle'>CONTACTS</h1>
                     <h2 data-aos="zoom-in" data-aos-duration="2000" className='subHeader'>Get in Touch</h2>
                     <div className='underline'></div>
                 </div>
-                <div className='contactContainer1'></div>
+                <div className='contactContainer1'>
+                    <div className='addressBox'>
+                        <div id='addressImg'></div>
+                        <p id='contactAddress'>
+                            No. 18,<br></br><br></br>
+                            Sebastian Road,<br></br><br></br>
+                            Katukurunda,<br></br><br></br>
+                            Kalutara,<br></br><br></br>
+                            Sri Lanka.
+                        </p>
+                    </div>
+                    <div className='emailBox'>
+                        <div id='emailImg'></div>
+                        <a href='' style={{color:'#6f7379'}}><p id='contactEmail'>ridmirangana1429@gmail.com</p></a>
+                        
+                    </div>
+                    <div className='phoneBox'>
+                        <div id='phoneImg'></div>
+                        <p id='contactPhone'>(+94) 70 327 4953</p>
+                    </div>
+                </div>
                 <div className='contactContainer2'>
                     <TextField className='textField' id="name" label="Full Name" variant="outlined" />
                     <TextField className='textField' id="email" label="Email" variant="outlined"  />
