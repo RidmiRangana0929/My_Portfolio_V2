@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+/* page headers and underline... */
+.headerContainer{
+    width: 70vw;
+    height: 26vh;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;;
+}
+.header{
+    position: relative;
+    width: 60vw;
+    height: 26vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8em;
+}
+#aboutTitle{
+    color: #F2F4F4;
+}
+#resumeTitle{
+    color: #e8ecec;
+}
+.subHeader{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40vw;
+    height: 7vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #111418;
+}
+.underline{
+    width: 5vw;
+    height: 3px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 16vh;
+    background-color: #FFC107;
+    border-radius: 20px;
+}
+
+/* ============================================================================================================================================ */
+
+/* buttons... */
+.button{
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    height: 4vh;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+/* resume page... */
+.resume{
+    background-color: #F8F9FA;
+    position: relative;
+    width: 81.9vw;
+    left: 17vw;
+    height: 280vh;
+}
+#mainLine{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    top: 40vh;
+    height: 124vh;
+    width: 0.4vw;
+    background-color: #5F6F85;
+}
+.boxContainer{
+    position: absolute;
+    display: grid;
+    gap: 45vh;
+}
+#boxContainer1{
+    left: 12vw;
+    top: 40vh;
+}
+#boxContainer2{
+    right: 12vw;
+    top: 74vh;
+}
+.box{
+    width: 25vw;
+    height: 22vh;
+    border: 2px solid #c3c3c3;
+    border-radius: 17px;
+}
+.circleContainer{
+    position: absolute;
+    display: grid;
+    gap: 64.5vh;
+}
+#circleContainer1{
+    left: 40.3vw;
+    top: 50vh;
+}
+#circleContainer2{
+    right: 40.3vw;
+    top: 84vh;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFC107;
+}
+.timeContainer{
+    position: absolute;
+    display: grid;
+    gap: 63.5vh;
+}
+#timeContainer1{
+    left: 31vw;
+    top: 83vh;
+}
+#timeContainer2{
+    right: 31vw;
+    top: 49vh;
+}
+.time{
+    width: 8vw;
+    height: 4vh;
+    background-color: #FFC107;
+    border-radius: 10px;
+    text-align: center;
+}
+.timePeriod{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0.8vh;
+}
+.skillContainer{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 25vh;
+    width: 70vw;
+}
+#skillContainer1,#skillContainer2,#skillContainer3{
+    border-bottom: 2px solid #DFDCDC;
+}
+#skillContainer1{
+    top: 180vh;
+}
+#skillContainer2{
+    top: 205vh;
+}
+#skillContainer3{
+    top: 230vh;
+}
+#skillContainer4{
+    top: 255vh;
+}
+.skillType{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 4vh;
+    margin-top: 6vh;
+    color: #111418;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.logoContainer{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    gap: 10vh;
+    display: flex;
+    align-items: center;
+}
+#logoContainer1{
+    width: 118vh;
+}
+#logoContainer2{
+    width: 70vh;
+}
+#logoContainer3{
+    width: 102vh;
+}
+.subLogoContainer{
+    align-items: center;
+    align-content: center;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.subLogoContainer:hover{
+    border: 1px solid #dadcdf;
+    -webkit-box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93); 
+box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
+    transform: scale(0.8);
+}
+.skillLogo{
+    margin: 0.5vh;
+    width: 5vh;
+    height: 5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#skillLogo1{
+    background-image: url("../Images/icons/skills/other/java.png");
+}
+#skillLogo2{
+    background-image: url("../Images/icons/skills/other/html5.png");
+}
+#skillLogo3{
+    background-image: url("../Images/icons/skills/other/mysql.png");
+}
+#skillLogo4{
+    background-image: url("../Images/icons/skills/other/css3.png");
+}
+#skillLogo5{
+    background-image: url("../Images/icons/skills/other/msSqlServer.png");
+}
+#skillLogo6{
+    background-image: url("../Images/icons/skills/other/javascript\ \(1\).png");
+}
+#skillLogo7{
+    background-image: url("../Images/icons/skills/other/cSharp.png");
+}
+#skillLogo8{
+    background-image: url("../Images/icons/skills/other/python.png");
+}
+#skillLogo9{
+    background-image: url("../Images/icons/skills/other/react.png");
+}
+#skillLogo10{
+    background-image: url("../Images/icons/skills/other/hibernate.png");
+}
+#skillLogo11{
+    background-image: url("../Images/icons/skills/other/bootstrap.png");
+}
+#skillLogo12{
+    background-image: url("../Images/icons/skills/other/reactBootstrap.png");
+}
+#skillLogo13{
+    background-image: url("../Images/icons/skills/other/metirialUI.png");
+}
+#skillLogo14{
+    background-image: url("../Images/icons/skills/other/figma.png");
+}
+#skillLogo15{
+    background-image: url("../Images/icons/skills/other/visualstudio.png");
+}
+#skillLogo16{
+    background-image: url("../Images/icons/skills/other/androidStudio.png");
+}
+#skillLogo17{
+    background-image: url("../Images/icons/skills/other/git.png");
+}
+#skillLogo18{
+    background-image: url("../Images/icons/skills/other/intellijIdea.png");
+}
+#skillLogo19{
+    background-image: url("../Images/icons/skills/other/sceneBuilder.png");
+}
+#skillLogo20{
+    background-image: url("../Images/icons/skills/other/photoshop.png");
+}
+#skillType{
+    display: flex;
+    gap: 2.2vw;
+    position: relative;
+    margin: auto;
+    width: 24.9vw;
+    height: 5vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.architecture{
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+    color: #363F4B;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+}
+.architecture:hover{
+    -webkit-box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93); 
+box-shadow: -3px 3px 8px 1px rgba(223,223,223,0.93);
+}
