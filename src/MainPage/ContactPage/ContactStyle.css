@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
-
 /* page headers and underline... */
 .headerContainer{
     width: 70vw;
@@ -66,78 +65,109 @@
     transition: all 0.4s;
 }
 
-/* home... */
-.homeImg{
-    background-image: url("../Images/Untitled\ design\ \(13\).png");
-    position: absolute;
+/* contact... */
+.contact{
+    background-color: #ffffff;
+    position: relative;
     width: 81.9vw;
     left: 17vw;
     height: 100vh;
-    background-attachment: fixed;
-    position: relative;
-    background-position: 233%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: background-image .3s ease-in .2s;
-    z-index: 0;
 }
-.home{
-    background-color: #11141851;
+.contactContainer1{
     position: absolute;
-    width: 81.9vw;
-    height: 100vh;
+    top: 36vh;
+    left: 7vw;
+    height: 40vh;
+    width: 30vw;
+    display: grid;
+    gap: 4vh;
 }
-#textBox{
+.contactContainer2{
+    height: 48vh;
     position: absolute;
-    width: 70vw;
-    height: fit-content;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    align-items: center;
-    align-content: center;
+    top: 36vh;
+    right: 7vw;
+    width: 35vw;
+    display: grid;
+    gap: 0vh;
 }
-#welcome{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: #f8f9fa;
-    font-size: 1.7em;
+#send{
     position: relative;
     margin: auto;
-    right: 0;
     left: 0;
-    height: fit-content;
-    width: fit-content;
-}
-
-#typewriter{
-    display: flex;
-    gap: 1vw;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: #f8f9fa;
-    font-size: 4.5em;
-    position: relative;
-    margin: auto;
     right: 0;
-    left: 0;
-    font-weight: 700;
-    width: fit-content;
-}
-#hireMe{
-    background-color: rgb(0 0 0 / 0%);
-    border: 2.5px solid #FFC107;
-    width: 7vw;
-    color: #ffc107;
-}
-#hireMe:hover{
     color: #ffffff;
     background-color: #FFC107;
+    width: 10vw;
     border-color: #ffffff00;
 }
-.gap{
-    width: 100%;
+.textField1{
+    width: 35vw;
     height: 5vh;
+    border-radius: 10px;
+    border: 1.5px solid #A2ABB7;
+}
+.textField1:focus-visible{
+    visibility: 0;
+    border: 1.5px solid #FFC107;
+}
+.contactLable{
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 1.5vh;
+    left: 0.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #A2ABB7;
+    width: 5vw;
+    transition: all 0.7s;
+}
+.addressBox{
+    width: 30vw;
+    height: 22vh;
+}
+.emailBox{
+    width: 30vw;
+    height: 5vh;
+}
+.phoneBox{
+    width: 30vw;
+    height: 5vh;
+}
+#addressImg, #emailImg, #phoneImg{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#addressImg{
+    background-image: url("../Images/icons/contacts/location.png");
+    top: -0.2vh;
+}
+#emailImg{
+    background-image: url("../Images/icons/contacts/email.png");
+    top: -0.5vh;
+}
+#phoneImg{
+    background-image: url("../Images/icons/contacts/phone-call.png");
+    top: -0.5vh;
+}
+#contactAddress, #contactEmail, #contactPhone{
+    width: fit-content;
+    position: relative;
+    top: -3.5vh;
+    left: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #6f7379;
+    height: 2vh;
+    text-align: left;
+}
+#send:hover{
+    background-color: rgb(0 0 0 / 0%);
+    border: 2.5px solid #FFC107;
+    color: #ffc107;
 }

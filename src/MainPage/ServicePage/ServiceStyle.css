@@ -55,6 +55,7 @@
     border-radius: 20px;
 }
 
+
 /* buttons... */
 .button{
     border-radius: 20px;
@@ -66,78 +67,30 @@
     transition: all 0.4s;
 }
 
-/* home... */
-.homeImg{
-    background-image: url("../Images/Untitled\ design\ \(13\).png");
-    position: absolute;
+/* service... */
+.service{
+    background-color: #F8F9FA;
+    position: relative;
     width: 81.9vw;
     left: 17vw;
     height: 100vh;
-    background-attachment: fixed;
-    position: relative;
-    background-position: 233%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: background-image .3s ease-in .2s;
-    z-index: 0;
 }
-.home{
-    background-color: #11141851;
+#mainContainer1{
+    top: 33vh;
+    left: 15vh;
+}
+#mainContainer2{
+    top: 33vh;
+    right: 15vh;
+}
+#mainContainer3{
+    top: 33vh;
+    left: 0;
+    right: 0;
+}
+.mainContainer{
+    width: 20vw;
+    height: 50vh;
     position: absolute;
-    width: 81.9vw;
-    height: 100vh;
-}
-#textBox{
-    position: absolute;
-    width: 70vw;
-    height: fit-content;
     margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    align-items: center;
-    align-content: center;
-}
-#welcome{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: #f8f9fa;
-    font-size: 1.7em;
-    position: relative;
-    margin: auto;
-    right: 0;
-    left: 0;
-    height: fit-content;
-    width: fit-content;
-}
-
-#typewriter{
-    display: flex;
-    gap: 1vw;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: #f8f9fa;
-    font-size: 4.5em;
-    position: relative;
-    margin: auto;
-    right: 0;
-    left: 0;
-    font-weight: 700;
-    width: fit-content;
-}
-#hireMe{
-    background-color: rgb(0 0 0 / 0%);
-    border: 2.5px solid #FFC107;
-    width: 7vw;
-    color: #ffc107;
-}
-#hireMe:hover{
-    color: #ffffff;
-    background-color: #FFC107;
-    border-color: #ffffff00;
-}
-.gap{
-    width: 100%;
-    height: 5vh;
 }

@@ -54,8 +54,6 @@
     border-radius: 20px;
 }
 
-/* ============================================================================================================================================ */
-
 /* buttons... */
 .button{
     border-radius: 20px;
@@ -67,7 +65,7 @@
     transition: all 0.4s;
 }
 
-/* about page... */
+/* about... */
 .about{
     background-color: #ffffff;
     position: relative;
