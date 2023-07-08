@@ -1,72 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-
-/* page headers and underline... */
-/* .headerContainer{
-    width: 70vw;
-    height: 26vh;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;;
-}
-.header{
-    position: relative;
-    width: 60vw;
-    height: 26vh;
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 8em;
-}
-#aboutTitle{
-    color: #F2F4F4;
-}
-#resumeTitle{
-    color: #e8ecec;
-}
-.subHeader{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 40vw;
-    height: 7vh;
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    color: #111418;
-}
-.underline{
-    width: 5vw;
-    height: 3px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 16vh;
-    background-color: #FFC107;
-    border-radius: 20px;
-} */
-
-/* ============================================================================================================================================ */
-
-/* buttons... */
-/* .button{
-    border-radius: 20px;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.1em;
-    font-weight: 500;
-    height: 4vh;
-    cursor: pointer;
-    transition: all 0.4s;
-} */
-
 
 
 /* navigation bar... */
@@ -152,208 +84,32 @@
     background-repeat: no-repeat;
 }
 
-/* ============================================================================================================================================ */
+@media(max-width:1024px){
+    .navBar{
+      height: 100vh;
+    }
+    .navBtn{
+        font-size: 0.9em;
+    }
+    .socialMediaIconGrid{
+        width: 130px;
+        left: 0;
+        right: 0;
+        bottom: 5vh;
+        gap: 12px;
+    }
+    .socialMedia{
+        height: 15px;
+        width: 15px;
+    }
+    .homeImg {
+        left: 17vw;
+        height: 100vh;
+        background-position: -76%;
+        background-size: cover;
+    }
+  }
 
-
-
-
-/* ============================================================================================================================================ */
-
-
-
-
-/* project page... */
-/* .project{
-    background-color: #ffffff;
-    position: relative;
-    width: 81.9vw;
-    left: 17vw;
-    height: 180vh;
-}
-#cardContainer{
-    position: absolute;
-    margin: auto;
-    top: 30vh;
-    left: 0;
-    right: 0;
-    width: 62vw;
-    height: 124vh;
-    display: flex;
-    gap: 15px;
-}
-.cardColumn{
-    display: grid;
-    gap: 15px;
-}
-#cardColumn1{
-    height: 122vh;
-}
-#cardColumn2{
-    height: 124vh;
-}
-#cardColumn3{
-    height: 92vh;
-}
-.longCard{
-    width: 20vw;
-    height: 60vh;
-    border-radius: 20px;
-}
-.shortCard{
-    width: 20vw;
-    height: 30vh;
-    border-radius: 20px;
-}
-#seeMore{
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 165vh;
-    color: #ffffff;
-    background-color: #FFC107;
-    width: 10vw;
-    border-color: #ffffff00;
-}
-#seeMore:hover{
-    background-color: rgb(0 0 0 / 0%);
-    border: 2.5px solid #FFC107;
-    color: #ffc107;
-} */
-/* ============================================================================================================================================ */
-
-
-/* service page... */
-/* .service{
-    background-color: #F8F9FA;
-    position: relative;
-    width: 81.9vw;
-    left: 17vw;
-    height: 100vh;
-}
-#mainContainer1{
-    top: 33vh;
-    left: 15vh;
-}
-#mainContainer2{
-    top: 33vh;
-    right: 15vh;
-}
-#mainContainer3{
-    top: 33vh;
-    left: 0;
-    right: 0;
-}
-.mainContainer{
-    width: 20vw;
-    height: 50vh;
-    position: absolute;
-    margin: auto;
-} */
-/* ============================================================================================================================================ */
-
-
-/* contact page... */
-/* .contact{
-    background-color: #ffffff;
-    position: relative;
-    width: 81.9vw;
-    left: 17vw;
-    height: 100vh;
-}
-.contactContainer1{
-    position: absolute;
-    top: 36vh;
-    left: 7vw;
-    height: 40vh;
-    width: 30vw;
-    display: grid;
-    gap: 4vh;
-}
-.contactContainer2{
-    height: 48vh;
-    position: absolute;
-    top: 36vh;
-    right: 7vw;
-    width: 35vw;
-    display: grid;
-    gap: 0vh;
-}
-#send{
-    position: relative;
-    margin: auto;
-    left: 0;
-    right: 0;
-    color: #ffffff;
-    background-color: #FFC107;
-    width: 10vw;
-    border-color: #ffffff00;
-}
-.textField1{
-    width: 35vw;
-    height: 5vh;
-    border-radius: 10px;
-    border: 1.5px solid #A2ABB7;
-}
-.textField1:focus-visible{
-    visibility: 0;
-    border: 1.5px solid #FFC107;
-}
-.contactLable{
-    background-color: white;
-    position: absolute;
-    margin: auto;
-    top: 1.5vh;
-    left: 0.8vw;
-    font-family: 'Inter', sans-serif;
-    color: #A2ABB7;
-    width: 5vw;
-    transition: all 0.7s;
-}
-.addressBox{
-    width: 30vw;
-    height: 22vh;
-}
-.emailBox{
-    width: 30vw;
-    height: 5vh;
-}
-.phoneBox{
-    width: 30vw;
-    height: 5vh;
-}
-#addressImg, #emailImg, #phoneImg{
-    position: relative;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#addressImg{
-    background-image: url("../MainPage/Images/icons/contacts/location.png");
-    top: -0.2vh;
-}
-#emailImg{
-    background-image: url("../MainPage/Images/icons/contacts/email.png");
-    top: -0.5vh;
-}
-#phoneImg{
-    background-image: url("../MainPage/Images/icons/contacts/phone-call.png");
-    top: -0.5vh;
-}
-#contactAddress, #contactEmail, #contactPhone{
-    width: fit-content;
-    position: relative;
-    top: -3.5vh;
-    left: 3vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: #6f7379;
-    height: 2vh;
-    text-align: left;
-} */
 
 
 

@@ -32,8 +32,16 @@ export const ContactPage = () => {
                 </div>
             </div>
             <div className='contactContainer2'>
-                <TextField className='textField' id="name" label="Full Name" variant="outlined" />
-                <TextField className='textField' id="email" label="Email" variant="outlined" />
+                <TextField
+                    className='textField'
+                    id="name"
+                    label="Full Name"
+                    variant="outlined" />
+                <TextField
+                    className='textField'
+                    id="email" label="Email"
+                    variant="outlined"
+                />
                 <TextField
                     className='textField'
                     id="message"
